@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Interactivity</title>
+    <link rel="stylesheet" href="data-interact.css">
+</head>  
+<body>
+    <p>This page displays three interactive visualizations that explore the relationship between voting habits, education, income, and voter turnout in Virginia. 
+        The first plot is a parallel categories plot that shows the distribution of voting habits by education and income. The second plot is a bubble plot that 
+        shows the relationship between voter turnout, absentee ballots, and total registered voters by locality. 
+        The third plot is a choropleth map that shows the percentage of voter turnout in the 2022 general election by locality.</p>
+   <h2>Relationship Between Voting Habits, Education, And Income Levels</h2> 
+   <h3 class="center">Parallel Categories Plot</h3>
+   <iframe src="categories.html" width="100%" height="75%" frameBorder="0"></iframe>
+   <p>This plot shows relationship in voting patterns, education and income levels of voters. There 
+    are three categories of voting habits: rarely, sporadic and always. The income variable is divided into four:
+    45-75k, 75.. And education has three levels: highschool, some college, and college graduate. The parallel categories plot
+    shows the counts between all levels of each variable. 
+   </p>
+   <h2>Comparison of Voter Turnout And Absentee Voters in Virginia Elections</h2>
+   <h3 class="center">Bubble Plot</h3>
+   <iframe src="bubble.htm" width="100%" height="100%" frameborder="0"></iframe>
+   <p>This plot shows data from Virginia. The scatterplot shows percentage of voter turnout on the x-axis and percentage of 
+    absentee voters (y-axis) in Virginia from 2014-2022. Each bubble represents a county or city in Virginia. The size of each bubble 
+    represents the total number of registered voters in that county or city. Unique colors represent the region of the state where the 
+    county is located. This plot has interactive features. Hovering over a bubble will produce some information about the city such as the 
+    percent voter turnout, percent absentee ballot, and total voters values.
+   </p>
+   <h2>Distribution of Voter Turnout in 2022 Virginia Elections</h2>
+   <h3 class="center">Choropleth Map</h3>
+   <p>This map shows data from the 2022 Virginia election. It shows percent voter turnout by county and city in Virginia on a choropleth map. 
+    Darker bins indicate higher percentage values. 
+   </p>
+</body>
+</html>
