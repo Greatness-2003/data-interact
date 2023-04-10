@@ -1,0 +1,73 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body { 
+    font: 100% Verdana, sans-serif;
+    line-height: 1.8em;
+    color: #555753; 
+    margin-left: 10%; 
+    margin-right: 10%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+    text-align: justify;
+}
+
+h2 { 
+    font: bold 2em garamond, serif;
+    letter-spacing: 0.1em; 
+    text-align: center;
+}
+
+h3 {
+	font: bold normal 1.4em helvetica, sans-serif;
+	letter-spacing: 0.09em; 
+	margin-bottom: 1em;
+    text-align: center;
+}
+
+
+.italic {
+    font-style: italic;
+    margin-top: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plot {
+    flex: 1 1 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
